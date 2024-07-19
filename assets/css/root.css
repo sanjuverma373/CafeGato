@@ -1,9 +1,9 @@
 :root {
         /* -- Font-Size -- */
-        --fs-sm: 20px;
+         --fs-sm: 16px;
         --fs-md: 22px;
         --fs-lg: 31px;
-        --fs-xl: 48px;
+         --fs-xl: 32px;
         --fs-xxl: 74px;
 
         /* -- color -- */
@@ -44,7 +44,7 @@
 .bg-dark-blue{
         background-color: var(--color-dark-blue);
 }
-.bg--light-blue{
+.bg-light-blue{
         background-color: var(--color-light-blue);
 }
 .bg-dark-sky{
@@ -55,4 +55,16 @@
 }
 .bg-light-white{
         background-color: var(--color-light-white);
+}
+
+@media (min-width: 767.9px) {
+        :root {
+                /* -- Font-Size -- */
+                --fs-sm: 20px;
+                --fs-md: 22px;
+                --fs-lg: 31px;
+                --fs-xl: 48px;
+                --fs-xxl: 74px;
+        }   
+        
 }
