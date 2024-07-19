@@ -100,25 +100,26 @@
 .pb-223 {
         padding-bottom: 48px;
 }
-.pb-233{
+
+.pb-233 {
         padding-bottom: 48px;
 }
-.pl-77{
+
+.pl-77 {
         padding-left: 0;
 }
 
-
-
-.max-w-640{
+.max-w-640 {
         max-width: 640px;
 }
+
 .page-logo {
         max-width: 90px;
         max-height: 90px;
         margin-top: 18px;
-      }
-      
-      .women-with-cat {
+}
+
+.women-with-cat {
         max-width: 600px;
         max-height: 940px;
         width: 100%;
@@ -126,59 +127,53 @@
         right: 0%;
         transform: translateX(0%);
         position: unset;
-      }
-      .header-cloud {
-        background-image: url("../image/webp/header-cloud.png");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 230px;
-        height: 180px;
-        margin-top: 14px;
-      }
-      
-      .header-cat {
+}
+
+.header-cat {
         max-width: 108px;
         max-height: 82px;
         right: 0%;
         bottom: -5%;
-      }
-      .bg-header-elipes {
+}
+
+.bg-header-elipes {
         max-width: 500px;
         max-height: 380px;
         right: 0px;
         top: -28px;
         pointer-events: none;
-      }
-      .header-blub {
+}
+
+.header-blub {
         top: 0;
         right: 5%;
         height: 138px;
         width: 45px;
-      }
-      .header-padding-b {
+}
+
+.header-padding-b {
         padding-bottom: 40px;
-      }
-      .line-header {
+}
+
+.line-header {
         top: 2%;
         right: 30.5%;
         width: 108px;
-      }
-      .header-bottom-elipes {
+}
+
+.header-bottom-elipes {
         width: 112px;
         height: 94px;
-      }
-      .bg-cat-with-cloud {
+}
+
+.bg-cat-with-cloud {
         background-image: url("/assets/images/svg/cloud.svg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         width: 339px;
         height: 257px;
-      }
-
-
-
+}
 
 /*---------------------------------------------------- shop ----------------------------------------------------*/
 .floor-img {
@@ -290,7 +285,8 @@
 .overflow-x {
         overflow-x: hidden;
 }
-.max-w-208{
+
+.max-w-208 {
         max-width: 208px;
 }
 
@@ -375,22 +371,22 @@
         font-family: inter !important;
         font-weight: 400 !important;
         color: var(--color-dark-blue);
-      }
-      
-      .form-input:focus {
+}
+
+.form-input:focus {
         outline: none !important;
         ;
-      }
-      
-      .form-input::placeholder {
+}
+
+.form-input::placeholder {
         font-family: Inter;
         font-size: var(--fs-sm);
         font-weight: 400;
         text-align: left;
         color: var(--color-dark-blue);
-      }
-      
-      .submit-button {
+}
+
+.submit-button {
         padding-bottom: 12px;
         padding-top: 12px;
         max-width: 400px !important;
@@ -401,47 +397,48 @@
         transition: all 300ms linear;
         background-color: var(--color-orange);
 
-      }
-      
-      .submit-button:hover {
+}
+
+.submit-button:hover {
         box-shadow: 0 4px 0 0 var(--color-dark-blue);
-      }
-      
-      .shadow-layer {
+}
+
+.shadow-layer {
         position: absolute;
         top: 25%;
         right: -4%;
         z-index: -1;
         width: 897px;
         height: 619px;
-      }
-      
-      .connected-bottom-spacing {
+}
+
+.connected-bottom-spacing {
         padding-bottom: 36px;
-      }
-      
-      .men-img {
+}
+
+.men-img {
         max-width: 417px;
         max-height: 443px;
-      }
-      
-      .left-foot {
+}
+
+.left-foot {
         position: absolute;
         bottom: 5%;
         left: 0%;
-      }
-      
-      .right-foot {
+}
+
+.right-foot {
         position: absolute;
         top: 2%;
         right: -1%;
-        
-      }
-      .foots-cats{
+
+}
+
+.foots-cats {
         position: absolute;
         top: 13%;
         right: 9%;
-      }
+}
 
 /*------------------------------------------------ footer-section ------------------------------------------------*/
 .max-w-155 {
@@ -488,7 +485,8 @@ hr {
         .pb-60 {
                 padding-bottom: 60px;
         }
-        .pb-233{
+
+        .pb-233 {
                 padding-bottom: 60px;
         }
 
@@ -515,6 +513,7 @@ hr {
         .pt-217 {
                 padding-top: 60px;
         }
+
         .pt-212 {
                 padding-top: 60px;
         }
@@ -538,57 +537,56 @@ hr {
                 top: 10%;
                 right: 0%;
                 z-index: -1;
-            }
-            
-            .form-input {
+        }
+
+        .form-input {
                 padding-top: 16px;
                 padding-bottom: 16px;
                 padding-left: 14px;
                 padding-right: 14px;
-            }
-            
-            .submit-button {
+        }
+
+        .submit-button {
                 padding-bottom: 16px;
                 padding-top: 16px;
-            }
-            
-            .jurney_img,
-            .men-with-ipad,
-            .mission_img {
+        }
+
+        .jurney_img,
+        .men-with-ipad,
+        .mission_img {
                 object-fit: contain;
                 max-width: 350px;
                 max-height: 400px;
-            }
+        }
 
+        .header-padding-b {
+                padding-bottom: 120px;
+        }
 
-             .header-cloud {
-    width: 250px;
-    height: 200px;
-    margin-top: 20px;
-  }
-  .header-padding-b {
-    padding-bottom: 120px;
-  }
-  .header-bottom-elipes {
-    width: 132px;
-    height: 114px;
-  }
-  .header-cat {
-    max-height: 102px;
-    right: -24%;
-  }
-  .bg-header-elipes {
-    max-width: 600px;
-    max-height: 420px;
-  }
-  .header-blub {
-    height: 188px;
-    width: 60px;
-  }
-  .line-header {
-    right: 35.5%;
-    width: 138px;
-  }
+        .header-bottom-elipes {
+                width: 132px;
+                height: 114px;
+        }
+
+        .header-cat {
+                max-height: 102px;
+                right: -24%;
+        }
+
+        .bg-header-elipes {
+                max-width: 600px;
+                max-height: 420px;
+        }
+
+        .header-blub {
+                height: 188px;
+                width: 60px;
+        }
+
+        .line-header {
+                right: 35.5%;
+                width: 138px;
+        }
 
 }
 
@@ -616,9 +614,11 @@ hr {
         .pt-217 {
                 padding-top: 90px;
         }
-        .pb-233{
+
+        .pb-233 {
                 padding-bottom: 90px;
         }
+
         .pt-212 {
                 padding-top: 90px;
         }
@@ -627,46 +627,51 @@ hr {
                 width: 301px;
                 height: 301px;
         }
+
         .form-input {
                 height: 90px !important;
                 max-width: 471px !important;
-              }
-              .submit-button {               
-                height: 90px;
-                max-width: 471px !important;        
-              }
+        }
 
-              .header-cloud {
-                width: 280px;
-                height: 220px;
-              }
-              .header-padding-b {
+        .submit-button {
+                height: 90px;
+                max-width: 471px !important;
+        }
+
+
+        .header-padding-b {
                 padding-bottom: 140px;
-              }
-              .header-bottom-elipes {
+        }
+
+        .header-bottom-elipes {
                 width: 152px;
                 height: 134px;
-              }
-              .line-header {
+        }
+
+        .line-header {
                 width: 198px;
-              }
-              .bg-header-elipes {
+        }
+
+        .bg-header-elipes {
                 max-width: 650px;
                 max-height: 450px;
-              }
-              .header-blub {
+        }
+
+        .header-blub {
                 right: 8%;
                 height: 238px;
                 width: 65px;
-              }
-              .page-logo {
-                max-width: 125px;
-                max-height: 102px;
+        }
+
+        .page-logo {
+                max-width: 155px;
+                max-height: 152px;
                 margin-top: 22px;
-              }
-              .header-cat {
+        }
+
+        .header-cat {
                 max-height: 122px;
-              }
+        }
 
 }
 
@@ -690,10 +695,12 @@ hr {
         .pt-217 {
                 padding-top: 217px;
         }
-        .pl-77{
+
+        .pl-77 {
                 padding-left: 77px;
         }
-        .pb-233{
+
+        .pb-233 {
                 padding-bottom: 233px;
         }
 
@@ -704,6 +711,7 @@ hr {
                 right: -37%;
                 bottom: 0;
         }
+
         .pt-212 {
                 padding-top: 212px;
         }
@@ -750,46 +758,53 @@ hr {
 
 @media (min-width: 1200px) {
         .women-with-cat {
-          width: 600px;
-          height: 750px;
-          position: absolute;
-          max-width: unset;
-          max-height: unset;
+                width: 600px;
+                height: 750px;
+                position: absolute;
+                max-width: unset;
+                max-height: unset;
         }
+
         .header-padding-b {
-          padding-bottom: 209px;
+                padding-bottom: 209px;
         }
+
         .header-bottom-elipes {
-          width: 192px;
-          height: 164px;
+                width: 192px;
+                height: 164px;
         }
+
         .bg-header-elipes {
-          max-width: 897px;
-          max-height: 608px;
+                max-width: 897px;
+                max-height: 608px;
         }
-      
+
         .line-header {
-          right: 39.5%;
+                right: 39.5%;
         }
+
         .header-blub {
-          height: 298px;
-          width: 75px;
-          right: 32%;
+                height: 298px;
+                width: 75px;
+                right: 32%;
         }
+
         .header-para {
-          max-width: 545px;
+                max-width: 545px;
         }
 }
+
 @media (min-width: 1400px) {
         .women-with-cat {
-          width: 763px;
-          height: 940px;
+                width: 763px;
+                height: 940px;
         }
+
         .mission-shadow {
-          max-width: 897px;
-          max-height: 619px;
+                max-width: 897px;
+                max-height: 619px;
         }
-      }
+}
 
 @media (min-width: 1400px) and (max-width: 1600px) {
         .container {
