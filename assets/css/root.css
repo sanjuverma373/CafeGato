@@ -64,6 +64,17 @@
                 --fs-md: 22px;
                 --fs-lg: 31px;
                 --fs-xl: 48px;
+                --fs-xxl: 60px;
+        }   
+        
+}
+@media (min-width: 991.9px) {
+        :root {
+                /* -- Font-Size -- */
+                --fs-sm: 20px;
+                --fs-md: 22px;
+                --fs-lg: 31px;
+                --fs-xl: 48px;
                 --fs-xxl: 74px;
         }   
         

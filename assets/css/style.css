@@ -62,15 +62,15 @@
 }
 
 .pt-97 {
-        padding-top: 12px;
+        padding-top: 24px;
 }
 
-.pt-84 {
-        padding-top: 84px;
+.pb-84 {
+        padding-bottom: 48px;
 }
 
-.pt-212 {
-        padding-top: 48px;
+.pt-58 {
+        padding-top: 28px;
 }
 
 .pt-219 {
@@ -150,13 +150,15 @@
         height: 138px;
         width: 45px;
 }
-
-.header-padding-b {
-        padding-bottom: 40px;
+.mr-15{
+        margin-right: 15%;
+}
+.mb-11{
+        margin-bottom: 13%;
 }
 
 .line-header {
-        top: 2%;
+        top: 4%;
         right: 30.5%;
         width: 108px;
 }
@@ -177,8 +179,8 @@
 
 /*---------------------------------------------------- shop ----------------------------------------------------*/
 .floor-img {
-        max-width: 192px;
-        max-height: 164px;
+        max-width: 60px;
+        max-height: 55px;
 }
 
 /*------------------------------------------------ about-section ------------------------------------------------*/
@@ -238,7 +240,7 @@
         position: absolute;
         max-width: 897px;
         max-height: 619px;
-        top: 27%;
+        top: 14%;
         right: 0;
 }
 
@@ -251,8 +253,8 @@
 }
 
 .mission-img {
-        max-width: 459px;
-        max-height: 631px;
+        max-width: 290px;
+        max-height: 380px;
 }
 
 .mission-ornage-leg {
@@ -278,8 +280,8 @@
 }
 
 .journey-img {
-        max-width: 408px;
-        max-height: 525px;
+        max-width: 270px;
+        max-height: 470px;
 }
 
 .overflow-x {
@@ -316,6 +318,10 @@
         border: 4px solid var(--color-dark-blue);
         box-shadow: 0px 22px 0px 0px var(--color-dark-blue);
         padding: 12px 25px 36px 23px;
+        transition: 1s;
+}
+.benefit-card:hover {
+        box-shadow: none;
 }
 
 .cats-size {
@@ -331,7 +337,7 @@
         box-shadow: 0px 22px 0px 0px var(--color-dark-blue);
         background-color: var(--color-orange);
         padding: 22px 20px 16px 20px;
-        transition: 2s;
+        transition: 1s;
 }
 
 .thank-box:hover {
@@ -367,7 +373,7 @@
         border: 3px solid var(--color-dark-blue);
         border-radius: 72px;
         height: 70px !important;
-        font-size: var(--font-sm) !important;
+        font-size: var(--fs-sm) !important;
         font-family: inter !important;
         font-weight: 400 !important;
         color: var(--color-dark-blue);
@@ -412,12 +418,8 @@
         height: 619px;
 }
 
-.connected-bottom-spacing {
-        padding-bottom: 36px;
-}
-
 .men-img {
-        max-width: 417px;
+        max-width: 500px;
         max-height: 443px;
 }
 
@@ -435,14 +437,13 @@
 }
 
 .foots-cats {
-        position: absolute;
         top: 13%;
         right: 9%;
 }
 
 /*------------------------------------------------ footer-section ------------------------------------------------*/
 .max-w-155 {
-        max-width: 155px;
+        max-width: 130px;
 }
 
 .gap-38 {
@@ -494,16 +495,12 @@ hr {
                 padding-top: 60px;
         }
 
-        .pt-97 {
-                padding-top: 24px;
-        }
-
         .pb-266 {
                 padding-bottom: 60px;
         }
 
         .pb-223 {
-                padding-bottom: 60px;
+                padding-bottom: 50px;
         }
 
         .pt-219 {
@@ -514,8 +511,8 @@ hr {
                 padding-top: 60px;
         }
 
-        .pt-212 {
-                padding-top: 60px;
+        .pt-58 {
+                padding-top: 58px;
         }
 
         .thank-box {
@@ -542,7 +539,7 @@ hr {
         .form-input {
                 padding-top: 16px;
                 padding-bottom: 16px;
-                padding-left: 14px;
+                padding-left: 29px;
                 padding-right: 14px;
         }
 
@@ -557,10 +554,6 @@ hr {
                 object-fit: contain;
                 max-width: 350px;
                 max-height: 400px;
-        }
-
-        .header-padding-b {
-                padding-bottom: 120px;
         }
 
         .header-bottom-elipes {
@@ -587,12 +580,19 @@ hr {
                 right: 35.5%;
                 width: 138px;
         }
+        .floor-img {
+                max-width: 192px;
+                max-height: 164px;
+        }
 
 }
 
 @media (min-width: 767.9px) {
         .pt-171 {
                 padding-top: 80px;
+        }
+        .pb-84 {
+                padding-bottom: 84px;
         }
 
         .pt-97 {
@@ -604,7 +604,7 @@ hr {
         }
 
         .pb-223 {
-                padding-bottom: 80px;
+                padding-bottom: 70px;
         }
 
         .pt-219 {
@@ -612,35 +612,34 @@ hr {
         }
 
         .pt-217 {
-                padding-top: 90px;
+                padding-top: 100px;
         }
 
         .pb-233 {
                 padding-bottom: 90px;
         }
 
-        .pt-212 {
-                padding-top: 90px;
+        .mr-15{
+                margin-right: 22%;
         }
-
-        .cats-size {
-                width: 301px;
-                height: 301px;
+        .journey-img {
+                max-width: 408px;
+                max-height: 525px;
         }
 
         .form-input {
                 height: 90px !important;
                 max-width: 471px !important;
+                padding-left: 29px !important;
+        }
+        .mission-img {
+                max-width: 459px;
+                max-height: 631px;
         }
 
         .submit-button {
                 height: 90px;
                 max-width: 471px !important;
-        }
-
-
-        .header-padding-b {
-                padding-bottom: 140px;
         }
 
         .header-bottom-elipes {
@@ -681,19 +680,19 @@ hr {
         }
 
         .pb-266 {
-                padding-bottom: 266px;
+                padding-bottom: 150px;
         }
 
         .pb-223 {
-                padding-bottom: 223px;
+                padding-bottom: 150px;
         }
 
         .pt-219 {
-                padding-top: 219px;
+                padding-top: 180px;
         }
 
         .pt-217 {
-                padding-top: 217px;
+                padding-top: 190px;
         }
 
         .pl-77 {
@@ -701,7 +700,7 @@ hr {
         }
 
         .pb-233 {
-                padding-bottom: 233px;
+                padding-bottom: 192px;
         }
 
         .cat-img {
@@ -712,12 +711,12 @@ hr {
                 bottom: 0;
         }
 
-        .pt-212 {
-                padding-top: 212px;
-        }
-
         .benefit-card {
                 min-height: 686px;
+        }
+        .cats-size {
+                width: 301px;
+                height: 301px;
         }
 
         .small-bulb {
@@ -739,7 +738,7 @@ hr {
         }
 
         .about-card {
-                padding: 25px 75px 20px 35px;
+                padding: 25px 75px 20px 23px;
 
         }
 
@@ -763,10 +762,7 @@ hr {
                 position: absolute;
                 max-width: unset;
                 max-height: unset;
-        }
-
-        .header-padding-b {
-                padding-bottom: 209px;
+                margin-top: -15%;
         }
 
         .header-bottom-elipes {
@@ -781,6 +777,7 @@ hr {
 
         .line-header {
                 right: 39.5%;
+
         }
 
         .header-blub {
